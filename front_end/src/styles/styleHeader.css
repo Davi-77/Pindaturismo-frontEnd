@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 3;
+  width: 100%;
+  z-index: 10;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Ajuste no padding */
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 26px; /* Ajuste o tamanho para parecer mais com a imagem */
+  color: #e5533d;
+  font-weight: bold;
+}
+
+.nav a {
+  top: 30px;
+  margin-left: 15px; /* Mais espaço entre os links */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px; /* Tamanho um pouco menor */
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

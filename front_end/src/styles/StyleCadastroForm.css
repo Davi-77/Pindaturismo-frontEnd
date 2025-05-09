@@ -1,0 +1,139 @@
+/* Estilo geral */
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/images/pindamonhangaba_letreiro.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 20px; /* Adicionando algum espaço lateral para garantir responsividade */
+}
+
+/* Caixa do formulário */
+.cadastro-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px 50px 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+.cadastro-form h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* Inputs */
+.cadastro-form input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Container da senha */
+.senha-container {
+  position: relative;
+  width: 100%; /* Garantir que o campo ocupe toda a largura */
+  margin-bottom: 16px;
+}
+
+.senha-container input {
+  width: calc(100% - 40px); /* Ajuste para evitar que o ícone sobreponha */
+  padding-right: 40px;
+}
+
+.btn-toggle-senha {
+  position: absolute;
+  top: 25%;
+  right: -120px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #999;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-toggle-senha:hover {
+  color: #fff;
+}
+
+/* Requisitos de senha */
+.requisitos-senha p {
+  margin: 0.2rem 0;
+  font-size: 0.85rem;
+}
+
+.valid {
+  color: #2ecc71; /* verde */
+}
+
+.invalid {
+  color: #ffffff; /* vermelho */
+}
+
+/* Mensagens de erro e sucesso */
+.erro {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.sucesso {
+  color: #2ecc71;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Botão */
+.cadastro-form button {
+  width: 100%;
+  padding: 16px;
+  background-color: hsl(2, 83%, 55%);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.cadastro-form button:hover {
+  background-color: hsl(2, 89%, 39%);
+}
+
+/* Link de cadastro */
+.register-link {
+  margin-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.register-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

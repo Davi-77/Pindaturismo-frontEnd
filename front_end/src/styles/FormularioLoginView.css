@@ -1,0 +1,122 @@
+/* Estilo geral */
+.auth-container {
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Caixa do formulário */
+  .form-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Título */
+  .form-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 28px;
+  }
+  
+  /* Inputs */
+  .form-input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .password-field {
+    position: relative;
+    margin-bottom: 16px; /* Igual ao input de email */
+  }
+  
+  .password-field .form-input {
+    padding-right: 44px; /* Espaço para o ícone */
+    margin-bottom: 0; /* Remove o margin-bottom duplicado */
+    height: 52px; /* Garante altura uniforme */
+    box-sizing: border-box;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .toggle-password:hover {
+    color: #fff;
+  }
+  
+
+  /* Botão */
+  .form-button {
+    width: 100%;
+    padding: 16px;
+    background-color: hsl(2, 83%, 55%);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .form-button:hover {
+    background-color: hsl(2, 89%, 39%);
+  }
+  
+  /* Opções extras */
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  
+  .remember-me input {
+    margin-right: 4px;
+  }
+  
+  .help-link {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  
+  .help-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Link de cadastro */
+  .register-link {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  
+  .register-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

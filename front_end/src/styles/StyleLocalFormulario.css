@@ -1,0 +1,93 @@
+.page-container {
+  background-color: rgb(156, 156, 156);
+}
+
+.local-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-title,
+.input-description,
+.input-mapa {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.input-description {
+  min-height: 100px;
+}
+
+.tourism-type-container {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.tourism-type-container p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.tourism-type-container label {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.tourism-type-container input[type="checkbox"] {
+  margin-right: 0.4rem;
+}
+
+button.submit-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.image-input-container {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.image-input {
+  margin-bottom: 0.5rem;
+}
+
+.image-input-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-input-container button:hover {
+  background-color: #218838;
+}

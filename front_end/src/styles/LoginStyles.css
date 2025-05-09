@@ -1,0 +1,12 @@
+.conteiner-cadastro {
+    background-image: url('../assets/images/pindamonhangaba_letreiro.webp');
+    background-size: cover;            /* Cobre todo o espaço mantendo proporção */
+    background-position: center;       /* Centraliza a imagem */
+    background-repeat: no-repeat;      /* Evita que a imagem se repita */
+    height: 100vh;                     /* Ocupa 100% da altura da tela */
+    width: 100%;                       /* Ocupa toda a largura */
+    display: flex;                     /* Para centralizar conteúdo se quiser */
+    align-items: center;
+    justify-content: center;
+  }
+  
