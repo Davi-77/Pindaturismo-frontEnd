@@ -19,7 +19,7 @@ export default function DetalhesLocal() {
   if (!local) return <p>Carregando...</p>;
 
   return (
-    <>
+    <div>
       <HeroSection />
 
       <div className="detalhes-local-page">
@@ -41,6 +41,6 @@ export default function DetalhesLocal() {
 
         <iframe src={local.mapa_url} title="Mapa" />
       </div>
-    </>
+    </div>
   );
 }

@@ -1,7 +1,12 @@
+body{
+  background-color: #ccd0d4;
+}
+
 .detalhes-local-page {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  
 }
 
 .detalhes-local-page .linha {
@@ -9,31 +14,35 @@
   flex-direction: row;
   gap: 20px;
   margin-top: 20px;
+  flex-wrap: wrap; /* Permite que o conteúdo se ajuste em telas menores */
 }
 
-.detalhes-local-page .coluna-esquerda,
+.detalhes-local-page .coluna-esquerda {
+  flex: 0 0 50%; /* A imagem ocupa 50% da largura */
+  max-width: 500px; /* Limita a largura da coluna esquerda */
+}
+
 .detalhes-local-page .coluna-direita {
-  flex: 1;
+  flex: 1; /* A coluna de texto ocupa o restante do espaço */
+  padding-left: 20px; /* Distância entre a imagem e o texto */
 }
 
 .detalhes-local-page .carousel-container {
-  max-width: 200px;
-  max-height: 400px;
+  max-width: 100%; /* Faz a largura do container do carousel ocupar 100% */
   margin: 0 auto;
 }
 
 .detalhes-local-page .carousel .slide img {
-  height: auto;
-  max-height: 300px;
-  max-width: 100px;
-  object-fit: cover;
+  height: 400px; /* Aumenta a altura das imagens */
+  width: 100%; /* As imagens ocupam toda a largura disponível */
+  object-fit: cover; /* Mantém a proporção das imagens sem distorcer */
   border-radius: 10px;
 }
 
 .detalhes-local-page .coluna-esquerda img {
-  width: 100%;
+  width: 100%; /* A imagem ocupa 100% da largura da coluna */
   border-radius: 10px;
-  object-fit: cover;
+  object-fit: cover; /* Garante que a imagem se ajuste corretamente */
 }
 
 .detalhes-local-page .coluna-direita p {
