@@ -15,6 +15,10 @@ export default function Header() {
     navigate('/sobre')
   }
 
+  const navComentarios = ()=>{
+    navigate('/comentarios')
+  }
+
   return (
     
     <header className="header">
@@ -22,6 +26,7 @@ export default function Header() {
       <nav className="nav">
       <a onClick={handleNavigate} style={{ cursor: 'pointer' }}>Home</a>
       <a onClick={navSobre} style={{cursor: 'pointer'}}>Sobre</a>
+      <a onClick={navComentarios} style={{cursor: 'pointer'}}>Comentarios</a>
   
       </nav>
     </header>

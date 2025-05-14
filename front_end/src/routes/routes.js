@@ -5,6 +5,7 @@ import FormularioLocal from "../view/FormularioLocal";
 import DetalhesLocal from "../view/DetalhesLocal";
 import CadastroView from "../view/CadastroView";
 import Sobre from "../view/Sobre";
+import ComentariosView from "../view/ComentariosView";
 
 
 export default function AppRoutes(){
@@ -17,7 +18,7 @@ export default function AppRoutes(){
             <Route path='/home' element={<HomeView/>}/>
             <Route path="/local/:id" element={<DetalhesLocal/>}/>
             <Route path="/home/admin" element={<FormularioLocal/>}/>
-            
+            <Route path='/comentarios' element={<ComentariosView/>}/>
 
         </Routes>
         </BrowserRouter>
